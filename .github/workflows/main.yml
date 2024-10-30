@@ -50,5 +50,5 @@ jobs:
         with:
           app-name: 'texasPost'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3C2CE92C8A56473AAFE1C02AC1DD0BD4 }}
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
           package: .
